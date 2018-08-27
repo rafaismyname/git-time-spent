@@ -1,0 +1,36 @@
+{
+  "name": "git-time-spent",
+  "version": "1.0.0",
+  "description": "Estimates the amount of time spent in coding a repo ⌛️😎🤘🏼",
+  "author": "Rafa Amorim <hi@rafaismy.name>",
+  "license": "MIT",
+  "keywords": [
+    "git",
+    "estimate",
+    "time spent"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafaismyname/git-time-spent"
+  },
+  "bugs": {
+    "url": "https://github.com/rafaismyname/git-time-spent/issues"
+  },
+  "contributors": [
+    "Rafael Amorim <hi@rafaismy.name>"
+  ],
+  "main": "src/cli.js",
+  "bin": {
+    "git-time-spent": "src/cli.js"
+  },
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "lodash": "^4.17.10",
+    "simple-git": "^1.96.0"
+  }
+}

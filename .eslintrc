@@ -1,0 +1,12 @@
+{
+  "extends": "airbnb-base",
+  "env": { "node": true, "browser": false },
+  "rules": {
+    "no-console": ["error", { allow: ["warn", "error"] }],
+    "object-curly-newline": ["error", { "multiline": true }],
+    "quote-props": ["error", "consistent"],
+    "func-names": ["error", "as-needed"],
+    "max-len": ["error", { "code": 160 }],
+    "no-underscore-dangle": "off"
+  }
+}

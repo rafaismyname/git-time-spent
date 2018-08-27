@@ -1,0 +1,18 @@
+node_modules*
+.DS_Store*
+.sass-cache*
+Thumbs.ds*
+npm-debug.log*
+
+*.log
+
+.env
+dist
+build
+.tern-project
+
+.tmp
+
+# IntelliJ
+*.iml
+/.idea
